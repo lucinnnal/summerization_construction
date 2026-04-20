@@ -159,6 +159,7 @@ def main():
             f_out.write(json.dumps(output_record, ensure_ascii=False) + "\n")
             f_out.flush()
             print(f"  ✓ Done.")
+            breakpoint()
 
 
 if __name__ == "__main__":

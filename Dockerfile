@@ -1,5 +1,5 @@
 # ── Base: PyTorch 2.3 + CUDA 12.1 (vLLM-compatible) ─────────────────────────
-FROM pytorch/pytorch:2.3.0-cuda12.1-cudnn8-devel
+FROM pytorch/pytorch:2.3.0-cuda12.1-cudnn8-runtime
 
 WORKDIR /app
 

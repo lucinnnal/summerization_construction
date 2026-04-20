@@ -1,0 +1,3 @@
+# vLLM built against CUDA 12.1 (torch 2.3 pre-installed in base image)
+vllm==0.8.5
+openai>=1.0.0
